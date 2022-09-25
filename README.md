@@ -1,2 +1,2 @@
 # nurturingAcorn.github.io
-# I'm making a website :)
+I'm making a website :)
