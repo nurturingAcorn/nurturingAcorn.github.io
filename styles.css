@@ -1,12 +1,20 @@
 body {
-  background-color: powderblue;
+  background-image: url("assets/cosmiccliffs.png");
+  background-color: midnightblue;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
-  color: blue;
+  border: 2px solid powderblue;
+  background-color: #f0f8ffaf;
+  color: midnightblue;
   font-family: courier;
 }
 p {
-  color: blue;
+  border: 2px solid powderblue;
+  padding: 20px;
+  background-color: #f0f8ffaf;
+  color: midnightblue;
   font-family: courier;
   font-size: 120%;
 }
