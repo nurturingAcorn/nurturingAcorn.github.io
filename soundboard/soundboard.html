@@ -4,10 +4,12 @@
   <link rel="stylesheet" href="soundboardStyles.css">
   <title>Max's Soundboard!</title>
   <h1>Hello, World!</h1>
-  <audio id="sfx"><source src="assets/hehehee.wav"></audio>
-    <button class="button" onclick="playsound()" id="button">Hehehee</button>
-    <script> function playsound() {
-      var sfx = document.getElementById("sfx");
+  <audio id="hehehee"><source src="assets/hehehee.wav"></audio>
+  <audio id="woahwoah"><source src="assets/woahwoah.wav"></audio>
+    <button class="button" onclick="playsound('hehehee')" id="button">Hehehee</button>
+    <button class="button" onclick="playsound('woahwoah')" id="button">Woah Woah</button>
+    <script> function playsound(sfx) {
+      var sfx = document.getElementById(sfx);
       sfx.autoplay='true';
       sfx.load();}
     </script>
