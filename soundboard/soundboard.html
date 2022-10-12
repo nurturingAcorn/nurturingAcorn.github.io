@@ -4,6 +4,13 @@
   <link rel="stylesheet" href="soundboardStyles.css">
   <title>Max's Soundboard!</title>
   <h1>Hello, World!</h1>
-  <p><a href="../index.html">This is gonna be a sound eventually!</a></p>
+  <audio id="sfx"><source src="assets/hehehee.wav"></audio>
+    <button onclick="playsound()" id="button">Hehehee</button>
+    <script> function playsound() {
+      var sfx = document.getElementById("sfx");
+      sfx.autoplay='true';
+      sfx.load();}
+    </script>
+  <p><a href="../index.html">Take me home!</a></p>
 </body>
 </html>
