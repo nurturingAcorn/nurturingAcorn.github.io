@@ -4,11 +4,28 @@ body {
 h1 {
   color: mintcream;
   font-family: courier;
+  text-align: center;
 }
 p {
   color: mintcream;
   font-family: courier;
   font-size: 120%;
+  text-align: center;
+}
+.sectionOne {
+  text-align: center;
+}
+.SectionOne .button {
+  background-color: royalblue;
+}
+.SectionOne .button:hover {
+  background-color: mediumslateblue;
+}
+.SectionTwo .button {
+  background-color: rebeccapurple;
+}
+.SectionTwo .button:hover {
+  background-color: mediumorchid;
 }
 a:link, a:visited {
   background-color: royalblue;
@@ -23,6 +40,7 @@ a:hover, a:active {
 }
 .button {
   background-color: royalblue;
+  font-family: courier;
   border: none;
   color: mintcream;
   padding: 15px 32px;
@@ -37,4 +55,11 @@ a:hover, a:active {
 }
 .button:hover{
   background-color: mediumslateblue;
+}
+hr {
+  color: mintcream;
+  background-color: mintcream;
+  border-width: 1px;
+  height: 3px;
+  margin-top: 80px;
 }

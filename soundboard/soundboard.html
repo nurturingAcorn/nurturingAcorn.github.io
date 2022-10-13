@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Max's Soundboard!</title>
+  </head>
 <body>
   <link rel="stylesheet" href="soundboardStyles.css">
-  <title>Max's Soundboard!</title>
-  <h1>Hello, World!</h1>
-  <audio id="hehehee"><source src="assets/hehehee.wav"></audio>
-  <audio id="woahwoah"><source src="assets/woahwoah.wav"></audio>
+  <h1>Sounds!!</h1>
+
+  <script> function playsound(sfx) {
+    var sfx = document.getElementById(sfx);
+    sfx.autoplay='true';
+    sfx.load();}
+  </script>
+
+  <div class="SectionOne">
+
+    <p><u>GLaDOS Voice Lines</u></p>
+    
+    <audio id="hehehee"><source src="assets/hehehee.wav"></audio>
+    <audio id="woahwoah"><source src="assets/woahwoah.wav"></audio>
+    
     <button class="button" onclick="playsound('hehehee')" id="button">Hehehee</button>
     <button class="button" onclick="playsound('woahwoah')" id="button">Woah Woah</button>
-    <script> function playsound(sfx) {
-      var sfx = document.getElementById(sfx);
-      sfx.autoplay='true';
-      sfx.load();}
-    </script>
+    
+  </div>
+
+  <div class="SectionTwo">
+
+    <p><u>Game Sound Effects</u></p>
+
+    <audio id="deltaruneexplosion"><source src="assets/deltaruneexplosion.wav"></audio>
+
+    <button class="button" onclick="playsound('deltaruneexplosion')" id="button">Boom!</button>
+
+  </div>
+
+  <hr>
   <p><a href="../index.html">Take me home!</a></p>
 </body>
 </html>
